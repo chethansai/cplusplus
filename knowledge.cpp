@@ -35,7 +35,7 @@ s.insert(y);
 		auto u=lower_bound(a.begin(),a.end(),x);
 		auto r=upper_bound(a.begin(),a.end(),x);
 		sum=sum+distance(a.begin(),r);
-		cout<<r-u<<" ";
+		cout<<" ";
 
 	}
 	cout<<sum;
